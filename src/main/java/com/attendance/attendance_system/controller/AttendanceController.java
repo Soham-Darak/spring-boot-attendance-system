@@ -36,6 +36,7 @@ public class AttendanceController {
         );
     }
 
+
     // Simple Browser Testing API
     @GetMapping("/hello")
     public String hello() {
