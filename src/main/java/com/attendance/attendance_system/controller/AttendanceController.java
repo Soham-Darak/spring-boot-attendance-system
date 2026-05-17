@@ -13,6 +13,7 @@ import java.util.Map;
 @RequestMapping("/attendance")
 public class AttendanceController {
 
+
     // Health Check API
     @GetMapping("/status")
     public Map<String, Object> getStatus() {
